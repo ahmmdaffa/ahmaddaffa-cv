@@ -1,3 +1,4 @@
+
 <script setup>
 import { ref, onMounted } from 'vue'; 
 import axios from 'axios'; 
@@ -11,7 +12,7 @@ axios.get('http://localhost:3000/api/skills'); skills.value =  response.data; } 
 </script>
 
 <template>
-  <section id="skill" class="py-20 bg-gray-50">
+  <section id="skill" class="py-20 bg-gray-800">
     <div class="container mx-auto px-6">
       <SectionTitle title="Keahlian & Teknologi" />
       <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -21,13 +22,14 @@ axios.get('http://localhost:3000/api/skills'); skills.value =  response.data; } 
           class="bg-white p-6 rounded-lg shadow-lg text-center transform hover:-translate-y-2 transition-transform duration-300"
         >
         <div class="flex justify-center items-center h-16 mb-4">
-            <img
-              v-if="skill.iconUrl"
-              :src="skill.iconUrl"
-              :alt="skill.name"
-              class="max-w-[40px] h-auto object-contain"
-            />
-          </div>
+  <img
+    v-if="skill.iconUrl"
+    :src="skill.iconUrl"
+    :alt="skill.name"
+    class="max-w-[40px] h-auto object-contain hover:animate-spin-once"
+  />
+</div>
+
           <h3 class="text-xl font-bold text-gray-800">{{ skill.name }}</h3>
           <p class="text-gray-500 mt-2">{{ skill.level }}</p>
         </div>
