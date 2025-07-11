@@ -30,7 +30,7 @@ import Fotoprofil from '@/assets/profil.jpg'
       <img
         :src="Fotoprofil"
         alt="Foto Profil"
-        class="w-80 h-80 rounded-full object-cover shadow-lg"
+        class="w-80 h-80 rounded-full object-cover shadow-2xl ring-4 ring-grey-500 transition duration-300"
       />
     </div>
   </section>
