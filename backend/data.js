@@ -5,12 +5,14 @@ const educationHistory = [
     period: '2023 - Sekarang',
     institution: 'Universitas Amikom Yogyakarta',
     major: 'S1 - Teknik Informatika',
+    image: 'amikom.jpg'
   },
   {
     id: 2,
     period: '2020 - 2023',
     institution: 'SMA ABBS Surakarta',
     major: 'MIPA',
+    image: 'sma.jpg'
   },
 ];
 
@@ -33,12 +35,12 @@ const skills = [
   {
     name: 'Node.js',
     level: 'Menengah',
-    iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'
+    iconUrl: 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/icons/camera.svg'
   },
   {
-    name: 'Express.js',
-    level: 'Menengah',
-    iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg'
+    name: 'Figma',
+    level: 'Expert',
+    iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg'
   },
   {
     name: 'MySQL',
