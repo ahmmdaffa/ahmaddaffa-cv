@@ -33,7 +33,7 @@ const skills = [
     iconUrl: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
   },
   {
-    name: 'Node.js',
+    name: 'Fotografi & videografi',
     level: 'Menengah',
     iconUrl: 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/icons/camera.svg'
   },
